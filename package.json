@@ -17,7 +17,7 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "cd client && yarn run start",
+    "client": "cd crithit && yarn run start",
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "prettify": "prettier '*/**/*.js' '*/**/*.jsx' '*/**/*.html' '*/**/*.css' --write"
   },
