@@ -1,7 +1,7 @@
 import React from "react";
-import "../index.css";
-import logo from "../images/logo";
-import TCF from "../images/TCFLogo.png";
+import "../../index.css";
+import logo from "../../images/Shower.png";
+import TCF from "../../images/TCFLogo.png";
 
 function Projects() {
   return (
@@ -30,7 +30,7 @@ function Projects() {
             width="40px"
           />
           <p>
-            As a founding member of{" "}
+            As a founding member of
             <a href="https://www.thecriticalfumblers.com/joomla30/">
               The Critical Fumblers
             </a>{" "}
