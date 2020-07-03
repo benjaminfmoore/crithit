@@ -1,22 +1,24 @@
 import React from "react";
 import "../../index.css";
+import "./HomePage.css";
 import Logo from "../../images/Shower.png";
-import Background from "../../images/SiteBackground.jpg";
 
 function HomePage() {
   return (
     <>
-      <div styles={{ backgroundImage: { Background } }}>
-        <img
-          src={Logo}
-          className="frontpage logo"
-          alt="Crit Hit Logo"
-          height="100px"
-          width="250px"
-        />
-        <h1>Crit Hit WebDev</h1>
-        <h3>Websites for Gamers by Gamers</h3>
-      </div>
+      <img
+        src={Logo}
+        className="logo"
+        alt="Crit Hit Logo"
+        height="100px"
+        width="250px"
+      />
+      <h1 className="title" alt="title">
+        Crit Hit WebDev
+      </h1>
+      <h3 className="subtitle" alt="subtitle">
+        Websites for Gamers by Gamers
+      </h3>
     </>
   );
 }
