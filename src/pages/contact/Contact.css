@@ -1,11 +1,22 @@
 .contact-container {
   margin-top: 8%;
-  border-radius: 5px;
-  background-color: #f2f2f2;
+  border-radius: 20px;
+  background-color: black;
+  border: solid 1px gold;
   padding: 20px;
-  width: 50%;
+  width: 35%;
   margin-left: auto;
   margin-right: auto;
+  color: white;
+}
+
+.contact-title {
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 5rem;
 }
 
 .social-links-container {
@@ -18,8 +29,23 @@
 }
 
 .social-links {
+  background-color: black;
+  border-radius: 30px;
+  border: 3px solid purple;
   height: 100px;
   width: 100px;
+}
+
+.contact-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  background-color: black;
+  border: 3px solid purple;
+  border-radius: 20px;
+  color: white;
+  font-family: "Permanent Marker", cursive;
 }
 
 .name-label {
@@ -29,36 +55,50 @@
   color: white;
 }
 
-.info-imput {
-  display: inline-block;
-  width: 100%;
-  margin-right: 10px;
+.row {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .col-25 {
+  font-family: "Permanent Marker", cursive;
   float: left;
-  width: 250px;
+  width: 120px;
   margin-top: 6px;
 }
 
 .imput-form {
+  height: 20px;
   width: 200%;
 }
 
 .col-75 {
   float: left;
-  width: 250px;
+  width: 20%;
   margin-top: 6px;
+  margin-left: 30px;
 }
 
 .subject {
   height: 200px;
-  width: 500px;
+  width: 400px;
 }
 
 label {
-  padding: 12px 12px 12px 0;
+  height: 35px;
+  padding: 0;
   display: inline-block;
+}
+
+.like-see {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 1px solid gold;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 /* Special effects for form */
@@ -72,11 +112,12 @@ label {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: gold;
+  color: black;
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: purple;
   color: white;
   padding: 12px 20px;
   border: none;

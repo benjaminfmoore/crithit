@@ -37,3 +37,16 @@
   margin-bottom: 2px;
   text-align: center;
 }
+
+.contact-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  background-color: black;
+  border: 3px solid purple;
+  border-radius: 20px;
+  color: white;
+  font-size: 3rem;
+  font-family: "Permanent Marker", cursive;
+}

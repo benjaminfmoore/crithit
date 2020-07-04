@@ -12,11 +12,13 @@
 .like-see {
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  border: 1px solid gold;
-  background-color: black;
-  color: white;
+  width: 30%;
   text-align: center;
+  background-color: black;
+  border: 3px solid purple;
+  border-radius: 20px;
+  color: white;
+  font-family: "Permanent Marker", cursive;
 }
 
 .projects-container {
