@@ -10,7 +10,7 @@ function TcfTwitch() {
       <p>
         As a founding member of
         <a href="https://www.thecriticalfumblers.com/joomla30/">
-          The Critical Fumblers{" "}
+          The Critical Fumblers
         </a>
         I have started working on making a twitch extension that will get them
         more exposure. A stream team that is dedicated to all things RPG and

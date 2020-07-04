@@ -18,6 +18,7 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  margin-inline-start: -35px;
   width: 100vw;
 }
 
