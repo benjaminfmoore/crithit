@@ -1,0 +1,93 @@
+.contact-container {
+  margin-top: 8%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-links-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.social-links {
+  height: 100px;
+  width: 100px;
+}
+
+.name-label {
+  display: inline-block;
+  width: 25%;
+  margin-top: 6px;
+  color: white;
+}
+
+.info-imput {
+  display: inline-block;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.col-25 {
+  float: left;
+  width: 250px;
+  margin-top: 6px;
+}
+
+.imput-form {
+  width: 200%;
+}
+
+.col-75 {
+  float: left;
+  width: 250px;
+  margin-top: 6px;
+}
+
+.subject {
+  height: 200px;
+  width: 500px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Special effects for form */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
