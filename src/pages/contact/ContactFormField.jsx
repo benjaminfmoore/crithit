@@ -39,7 +39,7 @@ function ContactFormField() {
           method="POST"
           data-netlify="true"
           alt="contact form"
-          onSubmit={this.handleSubmit}
+          onSubmit={handleSubmit}
         >
           <div className="row">
             <div className="col-25">
