@@ -2,7 +2,7 @@ import React from "react";
 import "../../index.css";
 import "./Contact.css";
 import SocialLinks from "./SocialLinks";
-import ContactFormField from "./ContactFormField";
+import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
@@ -10,13 +10,13 @@ function Contact() {
       <h2 className="page-title">CONTACT ME</h2>
 
       <h4 className="contact-text" alt="Like what you see">
-        You can find me contact me a variety of ways. On my social medias
+        You can contact me a variety of ways. Links...
       </h4>
       <SocialLinks />
       <h4 className="contact-text" alt="Like what you see">
-        Or you can email all job inquiries below!
+        Or you can email me directly!
       </h4>
-      <ContactFormField />
+      <ContactForm />
     </>
   );
 }
