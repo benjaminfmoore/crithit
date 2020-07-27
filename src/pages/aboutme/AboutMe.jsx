@@ -41,7 +41,7 @@ function AboutMe() {
             him live-streaming his shenanigans on{" "}
             <a href="https://twitch.tv/m00simus">his twitch channel.</a> or
             spending time with his fiancé and his German Shepherd co-pilot
-            Chewie
+            Chewie.
           </p>
         </div>
       </div>
