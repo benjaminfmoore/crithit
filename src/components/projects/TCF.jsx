@@ -5,17 +5,19 @@ import TCF from "../../images/TCFLogo.png";
 function TcfTwitch() {
   return (
     <div className="project-card" alt="twitch extension">
-      <h3 className="card-title">TCF Twitch Extension</h3>
-      <img src={TCF} alt="The Critical Fumblers" height="120px" width="100px" />
-      <p>
-        As a founding member of
+      <h3 className="card-title">TCF Twitch</h3>
+      <img className="tcf-card" src={TCF} alt="The Critical Fumblers" />
+      <p className="about-text">
+        As a founding member of The Critical Fumblers I have started working on
+        making a twitch extension that will get them more exposure. A stream
+        team that is dedicated to all things RPG and failure oriented, TCF is a
+        fun group of people that will welcome you to the table like you never
+        left.
+      </p>
+      <p className="about-text">
         <a href="https://www.thecriticalfumblers.com/joomla30/">
-          The Critical Fumblers
+          You can find us Here!
         </a>
-        I have started working on making a twitch extension that will get them
-        more exposure. A stream team that is dedicated to all things RPG and
-        failure oriented, TCF is a fun group of people that will welcome you to
-        the table like you never left.
       </p>
     </div>
   );

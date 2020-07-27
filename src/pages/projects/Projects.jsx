@@ -9,7 +9,7 @@ import Lyrically from "../../components/projects/Lyrically";
 function Projects() {
   return (
     <>
-      <h2 className="page-title" alt="Current projects">
+      <h2 className="project-title" alt="Current projects">
         CURRENT PROJECTS
       </h2>
       <h4 className="like-see" alt="Like what you see">

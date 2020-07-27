@@ -6,8 +6,14 @@ function OTGShop() {
   return (
     <div className="project-card" alt="On the go shopping">
       <h3 className="card-title">On-The-Go Shopping</h3>
-      <img src={OTG} alt="The Critical Fumblers" height="120px" width="100px" />
-      <p>
+      <img
+        className="otg-img"
+        src={OTG}
+        alt="The Critical Fumblers"
+        height="120px"
+        width="100px"
+      />
+      <p className="about-text">
         A two week long group agile programming sprint. OTG won "best web
         application" at Wyncode's Wyntank competition. Currently being
         streamlined and polished to allow for potential real-life use. With the
