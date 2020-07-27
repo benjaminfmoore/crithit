@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <div className="contact-form">
       <h1 className="contact-text">Or you can send me a message</h1>
-      <form class="cf" action="https://submit-form.com/AX04vYxzcs5pdDYkLg2L0">
+      <form class="cf" action="https://formspree.io/xwkngygz" method="POST">
         <div class="">
           <input type="text" className="input-form" placeholder="Name" />
           <input type="email" className="input-form" placeholder="Email" />
