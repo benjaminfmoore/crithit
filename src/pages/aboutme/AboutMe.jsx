@@ -7,6 +7,7 @@ import DiceLogo from "../../images/LogoDice.png";
 function AboutMe() {
   return (
     <>
+      <h2 className="project-title">About the Crit!</h2>
       <div className="aboutMeContainer" alt="about me container">
         <div className="about-card" alt="about the company">
           <h2>ABOUT THE COMPANY</h2>
