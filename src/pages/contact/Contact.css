@@ -10,18 +10,10 @@
   color: white;
 }
 
-.contact-title {
-  margin-top: 8%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  text-align: center;
-  font-size: 5rem;
-}
-
 .social-links-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
@@ -57,4 +49,14 @@
   background-color: black;
   color: white;
   text-align: center;
+}
+
+@media (max-width: 858px) {
+  .social-links-container {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  .contact-text {
+    width: 95%;
+  }
 }

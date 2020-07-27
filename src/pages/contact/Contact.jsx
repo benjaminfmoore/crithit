@@ -7,15 +7,12 @@ import ContactForm from "./ContactForm";
 function Contact() {
   return (
     <>
-      <h2 className="page-title">CONTACT ME</h2>
+      <h2 className="project-title">CONTACT ME</h2>
 
-      <h4 className="contact-text" alt="Like what you see">
-        You can contact me a variety of ways. Links...
+      <h4 className="contact-text">
+        You can contact me a variety of ways. At these links...
       </h4>
       <SocialLinks />
-      <h4 className="contact-text" alt="Like what you see">
-        Or you can email me directly!
-      </h4>
       <ContactForm />
     </>
   );
