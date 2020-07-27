@@ -1,31 +1,119 @@
-body {
+nav {
+  padding: 0;
   margin: 0;
-}
-ul {
-  margin-block-start: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-.nav-ul {
-  font-size: 2rem;
-  font-family: "Permanent Marker", cursive;
-  height: 75px;
-  top: 0;
-  position: fixed;
-  background-color: black;
-  align-items: center;
+  text-decoration: none;
   list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  margin-inline-start: -35px;
-  width: 100vw;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+  font-family: "Permanent Marker", cursive;
+  color: purple;
 }
 
-.nav-image {
-  margin-top: 5px;
+label.logo {
+  height: 80px;
+  margin-top: 0;
+  margin-left: 50px;
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
 }
-.navlink-change {
-  background: transparent;
-  color: black;
+
+nav ul {
+  margin-top: -80px;
+  float: right;
+  margin-left: auto;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px, 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+li a:hover:not(.active) {
+  background: red;
+  transition: 0.5s;
+}
+
+li a:focus {
+  background: #eab126;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  label.logo {
+    margin-left: 0px;
+  }
+  ul {
+    padding-inline-start: 0px;
+    margin-top: -80px;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    right: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul {
+    right: 0;
+  }
 }
