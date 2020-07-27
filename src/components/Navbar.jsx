@@ -13,9 +13,7 @@ const NavBarRemake = () => (
         <label className="logo">Crit-Hit WebDev</label>
         <ul>
           <li>
-            <a className="active" href="/">
-              Home
-            </a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href="/aboutme">About</a>

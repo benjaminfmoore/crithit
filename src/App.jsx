@@ -11,7 +11,6 @@ function App() {
   return (
     <Router>
       <div className="main-page">
-        {/* <Navbar /> */}
         <NavBarRemake />
         <Switch>
           <Route exact path="/" component={HomePage} />
